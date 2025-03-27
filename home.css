@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:wght@300;400;700&display=swap');
+
+body {
+    background-color: #D0A380;
+    font-family: "Winky Sans", sans-serif;
+}
+
+header {
+    font-family: "Boldonse", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    color: #333;
+}
+
+.reasons {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+fieldset {
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 400;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="submit"], input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
